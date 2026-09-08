@@ -1,5 +1,16 @@
 # 10.while_break_maior_menor.py
-#
+
+cont = 1
+aux = 0
+while cont >= 1:
+    maiornum = int(input("Digite um número:"))
+    if maiornum > aux:
+        aux = maiornum
+    if maiornum == 0:
+        break
+    cont += 1
+print(f"Maior número digitado até agora: {aux}")
+
 # QUESTÃO 10 — BREAK + MAIOR VALOR
 #
 # Crie um programa que peça números inteiros ao usuário
