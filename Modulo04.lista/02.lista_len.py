@@ -5,17 +5,18 @@ print(f"Elementos existentes na lista:{len(lista_numero)}")
 print("----------------------------------")
 print(f"Primeiro numero:{lista_numero[0]}")
 print(f"Último numero:{lista_numero[5]}")
-# QUESTÃO 22
+# 02.lista_len.py
+#
+# QUESTÃO 2 — TAMANHO DA LISTA COM len()
 #
 # Crie uma lista contendo 6 números inteiros.
 #
-# Depois:
+# Requisitos:
 #
-# 1. Mostre a lista completa;
-# 2. Mostre quantos elementos existem na lista;
-# 3. Mostre o primeiro elemento;
-# 4. Mostre o último elemento.
+# - Mostre a lista completa.
+# - Utilize len() para descobrir quantos elementos existem na lista.
+# - Mostre a quantidade de elementos.
 #
-# Utilize a função len() para descobrir a quantidade de elementos.
-
+# Objetivo:
+# - Entender que len() retorna a quantidade de elementos existentes em uma lista.
 

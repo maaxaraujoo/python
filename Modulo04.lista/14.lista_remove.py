@@ -7,23 +7,21 @@ fruta_remov = list_frutas.remove(para_remover) #fruta_remov recebe None
 print(f"Fruta removida:{para_remover}")
 print(f"Lista alterada:{list_frutas}")
 print("---------------------------------------------------------------------")
-
-# QUESTÃO 35
+# 14.lista_remove.py
 #
-# Crie uma lista com 7 frutas.
+# QUESTÃO 14 — REMOVENDO ELEMENTOS COM remove()
 #
-# Mostre a lista original.
+# Crie uma lista contendo 7 frutas.
 #
-# Depois, utilize remove() para retirar uma fruta
-# específica da lista.
+# Requisitos:
 #
-# Ao final, mostre:
+# - Mostre a lista original.
+# - Escolha uma fruta que será removida.
+# - Utilize remove() para remover essa fruta pelo seu valor.
+# - Mostre qual fruta foi removida.
+# - Mostre a lista novamente após a remoção.
 #
-# 1. A fruta removida;
-# 2. A lista depois da remoção.
-#
-# Exemplo:
-#
-# Lista original: ["Maçã", "Uva", "Banana", "Caju", "Limão", "Melancia", "Pera"]
-# Fruta removida: Banana
-# Lista depois da remoção: ["Maçã", "Uva", "Caju", "Limão", "Melancia", "Pera"]
+# Objetivo:
+# - Aprender a utilizar remove().
+# - Entender que remove() procura e remove um elemento pelo seu valor.
+# - Diferenciar remove() de pop(), que trabalha com índices.
