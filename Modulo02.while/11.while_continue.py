@@ -1,5 +1,16 @@
 # 11.while_continue.py
-#
+cont = 1
+while cont <=10:
+    
+    if cont %2 == 0:
+        print(cont)
+        cont += 1
+        continue
+    else:
+        print(cont)
+    
+       
+
 # QUESTÃO 11 — CONTINUE
 #
 # Crie um programa que percorra os números de 1 até 10
