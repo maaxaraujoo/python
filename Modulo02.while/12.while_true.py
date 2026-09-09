@@ -1,5 +1,11 @@
 # 12.while_true.py
-#
+cont = 1
+while True:
+    numeros = int(input("Digite um número:"))
+    print(f"Número digitado:{numeros}")
+    cont += 1
+    if numeros == 0:
+        break
 # QUESTÃO 12 — WHILE TRUE
 #
 # Crie um programa que peça números inteiros ao usuário
