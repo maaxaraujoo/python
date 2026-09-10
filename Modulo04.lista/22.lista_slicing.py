@@ -2,7 +2,8 @@
 lista = ["Uva","Morango","Limão","Melancia","Abacate","Laranja"]
 
 print(f"Três primeiros elementos: {lista[:3]}")
-print(f"Três primeiros elementos: {lista[:3]}")
+print(f"Elementos do índice 2 até o final: {lista[2:]}")
+print(f"Elementos do índice 1 até o índice 4: {lista[1:4]}")
 
 # QUESTÃO 22 — FATIAMENTO BÁSICO DE LISTAS
 #
