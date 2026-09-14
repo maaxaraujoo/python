@@ -12,17 +12,11 @@ if "Java" in palavra:
     print("A palavra está presente!")
 else:
     print("A palavra não está presente!")
-# QUESTÃO 7
+# 07.string_in.py
 #
-# Crie uma frase contendo algumas palavras.
+# QUESTÃO 07 — Verificando texto com o operador in
 #
-# Depois:
-#
-# 1. Verifique se a palavra "Python" está presente
-#    na frase utilizando in;
-# 2. Mostre uma mensagem informando o resultado;
-# 3. Faça uma segunda verificação procurando
-#    pela palavra "Java";
-# 4. Mostre uma mensagem informando o resultado.
-#
-# Utilize if/else.
+# Conceito:
+# - Verificar se uma palavra ou sequência de caracteres
+#   está presente dentro de uma string.
+# - Utilizar o operador in em condições.
