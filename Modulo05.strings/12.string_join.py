@@ -1,5 +1,4 @@
 # 12.string_join.py
-
 palavras = ["Vou","dormir","tarde"]
 print(f"Lista:{palavras}")
 
