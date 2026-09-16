@@ -2,6 +2,8 @@
 def saudacao():
     print("Olá, seja bem vindo ao seu novo módulo do curso!")
 saudacao()
+saudacao()
+saudacao()
 
 # QUESTÃO 01 — Criando e chamando uma função
 #
