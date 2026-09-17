@@ -1,5 +1,11 @@
 # 10.escopo_variavel_local.py
-#
+nome = str(input("Qual o nome do seu produto?"))
+def exibir_produto():
+    produto = nome
+    print(f"Nome:{produto}")
+exibir_produto()
+#(Não imprime poque - produto - está dentro da função) print(f"Nome:{produto}")
+
 # QUESTÃO 10 — Escopo de variáveis
 #
 # Crie uma função chamada exibir_produto().
