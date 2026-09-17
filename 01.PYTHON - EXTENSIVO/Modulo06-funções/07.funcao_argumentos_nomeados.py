@@ -5,7 +5,7 @@ def registrarPedido(cliente,produto,quanti):
     print(f"Quantidade de produtos:{quanti}")
     print(f"Nome do cliente:{cliente}")
     print(f"Nome do produto:{produto}")
-registrarPedido(cliente="Maxwell",produto="Videogame",quanti=4)
+registrarPedido(quanti=4,produto="Videogame",cliente="Maxwell")
 print("----------------------------------------------------------------------------------------------")
 # QUESTÃO 07 — Argumentos nomeados
 #
