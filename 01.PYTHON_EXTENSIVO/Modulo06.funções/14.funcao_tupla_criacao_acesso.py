@@ -5,8 +5,8 @@ preco_doProduto = int(input(f"Qual o valor do produto?"))
 
 tuplaProduto0 = (nome_doProduto,categoria_doProduto,preco_doProduto)
 print(f"Nome:{tuplaProduto0[0]}")
-print(f"Categoria:{tuplaProduto0[0]}")
-print(f"Valor:{tuplaProduto0[0]}")
+print(f"Categoria:{tuplaProduto0[1]}")
+print(f"Valor:{tuplaProduto0[2]}")
 print(f"Quantidade de valores na tupla:{len(tuplaProduto0)}")
 # QUESTÃO 14 — Criando e acessando uma tupla
 #
