@@ -7,7 +7,7 @@ print(f"Nome: {nome}")
 print(f"Idade: {idade}")
 print(f"Altura: {altura}")
 print(f"Cidade: {cidade}")
-#
+
 # Crie um programa que utilize variáveis para armazenar informações
 # sobre uma pessoa.
 #
