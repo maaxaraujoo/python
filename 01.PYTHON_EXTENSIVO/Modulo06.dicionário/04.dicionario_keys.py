@@ -1,11 +1,12 @@
 # 21.funcao_dicionario_keys.py
+print("-----------------------FICHA CADASTRAL-----------------------")
 inscricao = {}
 inscricao['nome'] = str(input("Digite o nome do seu curso:"))
 inscricao['modal'] = str(input("Digite a modalidade do seu curso:"))
 inscricao['tuno'] = str(input("Digite o turno do seu curso:"))
-
-for cont in inscricao.keys():
-    print(f"{cont}")
+print("-----------------------DADOS RECEBIDOS-----------------------")
+for cont in inscricao.keys(): 
+    print(f"{cont}") #mostra a chave key
 
 # QUESTÃO 21 — Percorrendo as chaves de um dicionário
 #

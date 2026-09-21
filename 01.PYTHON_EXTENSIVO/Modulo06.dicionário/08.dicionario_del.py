@@ -12,8 +12,6 @@ remover_chave = input("Chave que deseja remover:")
 print('')
 del dicionario[remover_chave]
 print(dicionario)
-
-
 # QUESTÃO 25 — Removendo informações com del
 #
 # Uma plataforma de eventos possui informações sobre uma

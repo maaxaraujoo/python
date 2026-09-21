@@ -17,8 +17,6 @@ if verifica_chave_not  not in chamado:
 else:
     print("Essa chave se encontra aqui!")
 
-
-
 # QUESTÃO 24 — Verificando a existência de chaves
 #
 # Um sistema de atendimento possui informações básicas de um

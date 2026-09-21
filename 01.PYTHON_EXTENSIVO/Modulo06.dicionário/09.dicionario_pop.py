@@ -14,6 +14,7 @@ valor_removido = inscricao.pop(remove_chave) #devolve somente o valor que está 
 print('')
 print("-----------------------DADOS ALTERADOS-----------------------")
 print(inscricao)
+print('')
 print(f"O valor'{valor_removido}' foi removido da chave '{remove_chave}'!")
 print('')
 print("-------------------------------------------------------------")

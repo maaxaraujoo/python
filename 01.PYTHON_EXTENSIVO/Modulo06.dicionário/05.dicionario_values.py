@@ -1,11 +1,12 @@
 # 22.funcao_dicionario_values.py
+print("-----------------------FICHA CADASTRAL-----------------------")
 viagem = {}
 viagem['destino'] = str(input("Pra onde você quer viajar?"))
 viagem['km'] = float(input("Quantos Km são?"))
 viagem['cat'] = str(input("Qual a categoria da viagem?"))
-
+print("-----------------------DADOS RECEBIDOS-----------------------")
 for cont in viagem.values():
-    print(cont)
+    print(cont) #mostra valores
 # QUESTÃO 22 — Percorrendo os valores de um dicionário
 #
 # Um aplicativo de transporte precisa analisar os dados de uma

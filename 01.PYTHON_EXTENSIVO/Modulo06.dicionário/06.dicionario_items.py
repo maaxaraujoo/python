@@ -2,7 +2,7 @@
 print("-----------------------FICHA CADASTRAL-----------------------")
 agendamento = {}
 agendamento['nome'] = str(input("Digite seu nome:"))
-agendamento['especialidade'] = str(input("Qual especialidade você agendou?:"))
+agendamento['especialidade'] = str(input("Qual especialidade você agendou?"))
 agendamento['hora'] = float(input("Digite a hora do seu atendimento:"))
 print("-----------------------DADOS RECEBIDOS-----------------------")
 for cont, valor in agendamento.items():

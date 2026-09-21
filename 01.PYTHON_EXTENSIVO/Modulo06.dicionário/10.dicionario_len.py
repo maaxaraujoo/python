@@ -7,7 +7,7 @@ participante['rua'] = input("Digite o nome da sua rua:")
 participante['nacionalidade'] = input("Digite sua nacionalidade:")
 participante['bairro'] = input("Digite seu bairro:")
 print("")
-print(len(participante))
+print(f"Quantidade de chaves nesse dicionário:{len(participante)}")
 print("-------------------------------------------------------------")
 # QUESTÃO 27 — Quantidade de informações em um cadastro
 #
