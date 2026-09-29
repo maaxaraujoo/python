@@ -7,8 +7,9 @@ dicionario["setor"] = str(input("Qual o setor do computador?"))
 dicionario["problema"] = str(input("Qual o problema do computador?"))
 
 def registrar_manutencao(patrimonio, **kwargs):
-for cont, valor in kwargs.items():
-print(f"'{patrimonio}  - {cont}:{valor}'")
+    print(f"Patrimônio:{patrimonio}")
+    for cont, valor in kwargs.items():
+        print(f"{cont}:{valor}")
 
 registrar_manutencao(patrimonio, **dicionario)
 
