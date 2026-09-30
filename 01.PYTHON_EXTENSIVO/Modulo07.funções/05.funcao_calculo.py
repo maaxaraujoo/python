@@ -11,6 +11,7 @@ totaldacompra = caulcular_valor(quantidade,valor_produto)
 print(f"Total da compra:{totaldacompra}")
 print("--------------------------------------------------------------------------")
 
+
 # QUESTÃO 05 — Função com retorno
 #
 # Crie uma função chamada calcular_valor().
